@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primera evaluación diseño 1</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+  <div class="page-wrapper">
+    <header class="header bloque">
+      <div class="header-content">
+        <span class="logo">LOGO</span>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+        </label>
+        <nav class="nav">
+        <a href="#logo">Logo-</a>
+        <a href="#inicio">Navegación-</a>
+        <a href="#info">Información</a>
+        <a href="#contacto">-Menú</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main-content">
+      <section id="inicio" class="hero bloque">
+        <h1>HERO SECTION</h1>
+        <p class="hero-desc-desktop">Título</p>
+        <p class="hero-desc-mobile">Título y descripción de la evaluacion</p>
+        <a href="#cta" class="btn-cta">BOTÓN CTA</a>
+      </section>
+      <section class="cards-container" aria-label="Tarjetas destacadas">
+        <article class="card bloque">
+          <h2>CARD 1</h2>
+          <p class="card-desc-mobile">Descripción 1</p>
+        </article>
+        <article class="card bloque">
+          <h2>CARD 2</h2>
+          <p class="card-desc-mobile">Descripción 2</p>
+        </article>
+        <article class="card bloque">
+          <h2>CARD 3</h2>
+          <p class="card-desc-mobile">Descripción 3</p>
+        </article>
+        <article class="card bloque card-tablet-only">
+          <h2>CARD 4</h2>
+        </article>
+      </section>
+      <section id="info" class="about bloque">
+        <h2 class="about-title-desktop">ABOUT / INFORMACIÓN</h2>
+        <h2 class="about-title-mobile">ABOUT</h2>
+        <div class="about-image-box">
+          <img src="img/interior-1.webp" alt="Escena de película con dos personas">
+        </div>
+        <p class="about-desc-mobile">Descripción e información moviles</p>
+      </section>
+      <section id="cta" class="cta bloque">
+        <h2>CALL TO ACTION</h2>
+      </section>
+    </main>
+    <footer id="contacto" class="footer bloque">
+      <p class="footer-title">FOOTER</p>
+      <p class="footer-links-mobile">Enlaces,Redes,Contacto</p>
+    </footer>
+  </div>
+</body>
+</html>
